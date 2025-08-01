@@ -1,14 +1,19 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
-	}
+   "name": "fcc-learn-npm-package-json",
+   "version": "1.1.0",
+   "description": "This is course back end development and APIs from freeCodeCamp",
+   "author": "Mayar Waleed Nawas",
+   "keywords": [ "freecodecamp", "related", "words" ],
+   "license": "MIT",
+   "main": "server.js",
+   "scripts": {
+      "start": "node server.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+   },
+   "dependencies": {
+      "express": "5.1.0"
+   }
 }
